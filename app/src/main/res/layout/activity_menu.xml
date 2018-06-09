@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.naturalreserv.jlh.naturalreserv1.MenuActivity">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="Costa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:text="Sierra"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:text="Amazonia"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:text="Galapagos"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+</android.support.constraint.ConstraintLayout>
