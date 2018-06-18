@@ -9,23 +9,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="428dp"
-            app:srcCompat="@mipmap/reserv"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="16dp" />
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="511dp">
 
         <Button
             android:id="@+id/btnIngresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ingresar"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="454dp" />
+            android:layout_weight="1"
+            android:text="Button" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="402dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="imagenView"
+            app:srcCompat="@mipmap/reservasnaturales" />
+
+    </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
